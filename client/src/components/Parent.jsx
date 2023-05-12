@@ -9,7 +9,7 @@ function ParentComponent() {
     const userId = localStorage.getItem("userId");
     const jwtToken = localStorage.getItem("jwtToken");
 
-    const response = await fetch(`http://localhost:8080/tasks/${userId}`, {
+    const response = await fetch(`https://todone-7v51.onrender.com/${userId}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

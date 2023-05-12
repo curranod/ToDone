@@ -15,7 +15,7 @@ function Register() {
   };
 
   const handleRegister = async () => {
-    const response = await fetch('http://localhost:8080/register', {
+    const response = await fetch('https://todone-7v51.onrender.com/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

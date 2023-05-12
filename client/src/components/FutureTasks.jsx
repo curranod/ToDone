@@ -18,7 +18,7 @@ function FutureTasks() {
         const jwtToken = localStorage.getItem("jwtToken");
         console.log(`Fetching tasks with user ID ${userId} and JWT token ${jwtToken}`);
 
-        const response = await fetch(`http://localhost:8080/tasks/${userId}`, {
+        const response = await fetch(`https://todone-7v51.onrender.com/tasks/${userId}`, {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ function FutureTasks() {
             const userId = localStorage.getItem("userId")
             const token = localStorage.getItem("jwtToken")
 
-            await fetch(`http://localhost:8080/${userId}/tasks/${task._id}`, {
+            await fetch(`https://todone-7v51.onrender.com/${userId}/tasks/${task._id}`, {
                 method: 'PUT',
                 headers: {
                     'Authorization': `Bearer ${token}`,
@@ -86,7 +86,7 @@ function FutureTasks() {
             const userId = localStorage.getItem("userId");
             const token = localStorage.getItem("jwtToken");
 
-            await fetch(`http://localhost:8080/${userId}/tasks/${currentTask._id}`, {
+            await fetch(`https://todone-7v51.onrender.com/${userId}/tasks/${currentTask._id}`, {
                 method: 'PUT',
                 headers: {
                     'Authorization': `Bearer ${token}`,
