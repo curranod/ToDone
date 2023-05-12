@@ -1,14 +1,13 @@
-
-import './App.css'
-import { useState } from 'react'
-import { connect } from "react-redux"
+import './App.css';
+import React from 'react';
+import ParentComponent from './components/Parent';
 
 function App() {
   return (
-    <>
-      <h1>Hello</h1>
-    </>
-  )
+    <div className="App">
+      <ParentComponent />
+    </div>
+  );
 }
 
-export default App
+export default App;

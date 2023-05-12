@@ -1,0 +1,162 @@
+body {
+  font-family: 'Arial', sans-serif;
+  opacity: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  color: black;
+  margin: 0;
+}
+
+.white-button {
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0); /* Adjust the alpha value to control the transparency */
+  position: fixed;
+  top: 17%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* flex-grow: 1; */
+
+.futureh {
+  color: white;
+}
+
+.fcolumn {
+  background-color: rgba(240, 248, 255, 0) ;
+  border-color: aliceblue;
+}
+.currenth {
+  color: white;
+}
+
+.ccolumn {
+  background-color: rgba(240, 248, 255, 0) ;
+}
+
+
+.pasth {
+  color: white;
+}
+
+.pcolumn {
+  background-color: rgba(240, 248, 255, 0) ;
+  border-color: aliceblue;
+}
+
+.CurrentTask-card {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  background-color: #ebecf0;
+  
+}
+
+.green-button {
+  color: white;
+  background-color: #914bad;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.task-card {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 4px;
+  background-color: #ebecf0;
+  
+}
+
+.task-card h1 {
+  font-size: 14px;
+  margin: 0;
+  color: black;
+}
+
+.task-card p {
+  font-size: 12px;
+  margin: 4px 0;
+  color: black;
+}
+
+.task-card button {
+  font-size: 12px;
+  padding: 4px 8px;
+  color: black;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #5e6c84;
+}
+
+div {
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  
+}
+
+div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div ul li {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 3px;
+  background-color: #ebecf0;
+  
+}
+
+button {
+  margin-top: 10px;
+  color: white;
+  background-color: #5aac44;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 12px;
+  color: black;
+}
+
+.ctaskh {
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+  background-color: #914badd1;
+}
+
+button:active {
+  background-color: #914bad;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .column {
+    flex-basis: 100%;
+  }
+}

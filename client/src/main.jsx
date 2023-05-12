@@ -8,6 +8,7 @@ import Login from './components/Login.jsx'
 import Register from './components/Register.jsx'
 import reducer from './store/reducer.js'
 import './index.css'
+import ProtectedRoute from './components/ProtectedRoute'
 
 const store = createStore(
   reducer,
@@ -24,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<App />} />
+          <Route path="/" element={<ProtectedRoute><App /></ProtectedRoute>} />
           <Route path="/login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
         </Routes>
