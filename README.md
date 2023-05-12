@@ -1,4 +1,4 @@
-#ToDone
+ToDone
 ToDone is a task management application that helps you stay organized and productive. Keep track of your tasks, set reminders, and prioritize your work to stay on top of your to-do list.
 
 Features
