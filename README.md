@@ -1,6 +1,6 @@
 ToDone
 ToDone is a task management application that helps you stay organized and productive. Keep track of your tasks, set reminders, and prioritize your work to stay on top of your to-do list.
-
+https://to-done-9fun.vercel.app/
 Features
 Add tasks: Easily add new tasks to your list with a name, description, and estimated time.
 Mark tasks as complete: Once you've completed a task, mark it as complete to keep track of your progress.
@@ -13,8 +13,7 @@ Front-end: React.js, HTML, CSS
 Back-end: Node.js, Express.js
 Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
-Installation
-Clone the repository: git clone [<repository-url>](https://github.com/curranod/ToDone)
+
 Sign up or log in to your account.
 Add new tasks by clicking the "+" button in the navigation bar.
 Fill in the task details and click "Add Task" to save it.
